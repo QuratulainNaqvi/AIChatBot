@@ -143,7 +143,7 @@ class MainActivity : AppCompatActivity() {
             chatAdapter?.addMessage(ChatMessage("Hi! How can I help you?", "AI"))
             binding.rvChat.scrollToPosition(chatAdapter?.itemCount!! - 1)
         } else {
-            val apiKey = "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"
+            val apiKey = "YOUR API KEY"
             val requestBody =
                 RequestBody(
                     "text-davinci-003",
